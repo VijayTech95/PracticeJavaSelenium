@@ -18,6 +18,7 @@ public class TC_01_SignUpPage extends MainBAseClass {
 	public void signUpPage() throws Exception {
 		SignUpPage sign = new SignUpPage(driver);
 		sign.clickSignUpLink();
+		sign.enterUserName();
 	}
 	
 	@AfterMethod

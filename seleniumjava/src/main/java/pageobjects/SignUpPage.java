@@ -10,6 +10,9 @@ public class SignUpPage {
 	@FindBy(xpath= "//a[contains(text(),' Signup / Login')]")
 	WebElement LOginLink;
 	
+	@FindBy(xpath = "//input[@name='name']")
+	WebElement NameTextField;
+	
 	
 	
 	public SignUpPage(WebDriver driver) {
@@ -20,6 +23,11 @@ public class SignUpPage {
 	public void clickSignUpLink() throws Exception {
 		Thread.sleep(2000);
 		LOginLink.click();
+	}
+	
+	public void enterUserName() throws Exception {
+		Thread.sleep(1000);
+		NameTextField.sendKeys("Vijay");
 	}
 
 }
