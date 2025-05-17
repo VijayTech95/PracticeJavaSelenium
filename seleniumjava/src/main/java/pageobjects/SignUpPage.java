@@ -13,6 +13,8 @@ public class SignUpPage {
 	@FindBy(xpath = "//input[@name='name']")
 	WebElement NameTextField;
 	
+	@FindBy(xpath = "//h2[text()='New User Signup!']//following::input[3]")
+	WebElement EmailTextField;
 	
 	
 	public SignUpPage(WebDriver driver) {
@@ -28,6 +30,11 @@ public class SignUpPage {
 	public void enterUserName() throws Exception {
 		Thread.sleep(1000);
 		NameTextField.sendKeys("Vijay");
+	}
+	
+	public void enterUserMailId() throws Exception {
+		Thread.sleep(1000);
+		EmailTextField.sendKeys("abghyt@gmail.com");
 	}
 
 }

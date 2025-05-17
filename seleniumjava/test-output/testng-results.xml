@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-17T23:05:48 IST" name="Default suite" finished-at="2025-05-17T23:06:08 IST" duration-ms="20141">
+  <suite started-at="2025-05-17T23:35:44 IST" name="Default suite" finished-at="2025-05-17T23:36:00 IST" duration-ms="15769">
     <groups>
     </groups>
-    <test started-at="2025-05-17T23:05:48 IST" name="Default test" finished-at="2025-05-17T23:06:08 IST" duration-ms="20141">
+    <test started-at="2025-05-17T23:35:44 IST" name="Default test" finished-at="2025-05-17T23:36:00 IST" duration-ms="15769">
       <class name="testcases.TC_01_SignUpPage">
-        <test-method is-config="true" signature="loadData()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:05:48 IST" name="loadData" finished-at="2025-05-17T23:05:48 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="loadData()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:35:44 IST" name="loadData" finished-at="2025-05-17T23:35:44 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadData -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:05:48 IST" name="setUp" finished-at="2025-05-17T23:06:03 IST" duration-ms="14539" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:35:44 IST" name="setUp" finished-at="2025-05-17T23:35:55 IST" duration-ms="10285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="signUpPage()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:06:03 IST" name="signUpPage" finished-at="2025-05-17T23:06:08 IST" duration-ms="5509" status="PASS">
+        <test-method signature="signUpPage()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:35:55 IST" name="signUpPage" finished-at="2025-05-17T23:36:00 IST" duration-ms="5380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpPage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:06:08 IST" name="close" finished-at="2025-05-17T23:06:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:36:00 IST" name="close" finished-at="2025-05-17T23:36:00 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:06:08 IST" name="quit" finished-at="2025-05-17T23:06:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.TC_01_SignUpPage@510f3d34]" started-at="2025-05-17T23:36:00 IST" name="quit" finished-at="2025-05-17T23:36:00 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

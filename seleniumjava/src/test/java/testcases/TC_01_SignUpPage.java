@@ -19,6 +19,7 @@ public class TC_01_SignUpPage extends MainBAseClass {
 		SignUpPage sign = new SignUpPage(driver);
 		sign.clickSignUpLink();
 		sign.enterUserName();
+		sign.enterUserMailId();
 	}
 	
 	@AfterMethod
